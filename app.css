@@ -1,0 +1,82 @@
+body{
+    background-color: #213E60;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1rem;
+}
+#banner {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Righteous', sans-serif;
+    font-size: 5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #F6B7B7;
+    text-shadow: -2.5px 0 #FFFFFF, 2.5px 0 #E68C3A;
+    /* font-weight: bold; */
+    letter-spacing: 5px;
+}
+
+h3{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+#clear, #searchForm {
+    display: inline-block;
+}
+
+button{
+    /* font-family: 'Assistant', sans-serif; */
+    background-color: #94B6EF;
+    padding: 6px;
+    height: 30px;
+    margin: 0 0 0 4px;
+    border: none;
+    border-radius: 9px;
+    color: #FFFFFF;
+    font-weight:600;
+    font-size: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #6b93d8;
+}
+
+#clear{
+    background-color: #F6B7B7;
+    color:#213E60;
+}
+
+#clear:hover{
+    background-color:#de8e8e;
+}
+
+#search{
+    height: 20px;
+    width: 300px;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+#search:focus{
+    outline:2px solid #E68C3A;
+}
+
+#gifContainer{
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#gifContainer img{
+    margin: 15px;
+    width: 300px;
+}
