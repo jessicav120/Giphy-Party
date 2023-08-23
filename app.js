@@ -4,7 +4,7 @@ const $form = $('#searchForm');
 const $gifContainer = $('#gifContainer');
 
 async function searchGif(tag){
-    const res = await axios.get('http://api.giphy.com/v1/gifs/random',{
+    const res = await axios.get('https://api.giphy.com/v1/gifs/random',{
         params: {
             tag,
             api_key: 'ICga3jIDCRRhw2sqe8sP5O6EFzz3mGf5'
